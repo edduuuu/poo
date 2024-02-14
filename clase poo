@@ -1,0 +1,186 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNr7I3DebxR1YVjLM5kTJl1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/edduuuu/poo/blob/main/clase%20poo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "id": "c6KnRIKRYvtJ"
+      },
+      "outputs": [],
+      "source": [
+        "class mascota():\n",
+        "\n",
+        "  def __init__(self):\n",
+        "    print(\"creamos una clase madre\")\n",
+        "\n",
+        "  def adivina(self):\n",
+        "      print(\"hola soy un perro\")\n",
+        "\n",
+        "  def hablar(self):\n",
+        "        print (\"ladro\")\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "mascota=mascota()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oIMLgh4NewIb",
+        "outputId": "6963a68b-68d9-428c-81c0-4839450710f3"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "creamos una clase madre\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "mascota.adivina()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lTVlE9uUeHOv",
+        "outputId": "342578a6-78d3-4ca6-feb6-aa14d1ce8245"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hola soy un perro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class genaro():\n",
+        "  def __init__(self):\n",
+        "    print(\"creamos una clase madre\")\n",
+        "\n",
+        "  def adivina(self):\n",
+        "    print(\"hola, soy genaro\")\n",
+        "\n",
+        "  def hablar(self):\n",
+        "    print(\"hbalo\")\n",
+        ""
+      ],
+      "metadata": {
+        "id": "6a_kc0ghez5C"
+      },
+      "execution_count": 16,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "genaro=genaro()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oTfZf8FRoJz5",
+        "outputId": "f67c1ac2-82dc-413f-d90d-e909ef9cd985"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "creamos una clase madre\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "genaro.adivina()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "69YNO4CHoOuX",
+        "outputId": "48632eb1-851c-40e3-dd48-420e3804d097"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hola, soy genaro\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "genaro.hablar()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "45H8EBKBoWew",
+        "outputId": "a1230b93-cf68-4b3e-c7ef-3c1286ec82b1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hbalo\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
